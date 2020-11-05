@@ -133,242 +133,242 @@ position = Vector2( 671.375, 354.635 )
 [node name="StrategicPoint2" parent="." instance=ExtResource( 3 )]
 position = Vector2( 1113.1, 589.452 )
 
-[node name="Detail" type="Node2D" parent="."]
+[node name="Details" type="Node2D" parent="."]
 
-[node name="Bush" type="Sprite" parent="Detail"]
+[node name="Bush" type="Sprite" parent="Details"]
 position = Vector2( 1045.61, 224.563 )
 texture = ExtResource( 16 )
 
-[node name="Bush1" type="Sprite" parent="Detail"]
+[node name="Bush1" type="Sprite" parent="Details"]
 position = Vector2( 1237.45, 223.446 )
 texture = ExtResource( 16 )
 
-[node name="Bush2" type="Sprite" parent="Detail"]
+[node name="Bush2" type="Sprite" parent="Details"]
 position = Vector2( 788.22, 286.789 )
 texture = ExtResource( 16 )
 
-[node name="Bush3" type="Sprite" parent="Detail"]
+[node name="Bush3" type="Sprite" parent="Details"]
 position = Vector2( 508.205, 405.583 )
 rotation = -0.773181
 texture = ExtResource( 16 )
 
-[node name="Bush4" type="Sprite" parent="Detail"]
+[node name="Bush4" type="Sprite" parent="Details"]
 position = Vector2( 827.818, 640.342 )
 texture = ExtResource( 16 )
 
-[node name="Bush5" type="Sprite" parent="Detail"]
+[node name="Bush5" type="Sprite" parent="Details"]
 position = Vector2( 946.612, 623.372 )
 texture = ExtResource( 16 )
 
-[node name="Bush6" type="Sprite" parent="Detail"]
+[node name="Bush6" type="Sprite" parent="Details"]
 position = Vector2( 1260.57, 535.691 )
 texture = ExtResource( 16 )
 
-[node name="Bush7" type="Sprite" parent="Detail"]
+[node name="Bush7" type="Sprite" parent="Details"]
 position = Vector2( 1476.62, 517.626 )
 rotation = -0.223402
 texture = ExtResource( 16 )
 
-[node name="Bush8" type="Sprite" parent="Detail"]
+[node name="Bush8" type="Sprite" parent="Details"]
 position = Vector2( 1361.94, 619.771 )
 rotation = -2.90074
 texture = ExtResource( 16 )
 
-[node name="Bush9" type="Sprite" parent="Detail"]
+[node name="Bush9" type="Sprite" parent="Details"]
 position = Vector2( 598.715, 694.083 )
 rotation = 2.12581
 texture = ExtResource( 16 )
 
-[node name="Bush10" type="Sprite" parent="Detail"]
+[node name="Bush10" type="Sprite" parent="Details"]
 position = Vector2( 423.353, 699.739 )
 rotation = -0.387463
 texture = ExtResource( 16 )
 
-[node name="Bush11" type="Sprite" parent="Detail"]
+[node name="Bush11" type="Sprite" parent="Details"]
 position = Vector2( 1250.15, 693.502 )
 rotation = 0.420624
 texture = ExtResource( 16 )
 
-[node name="Bush12" type="Sprite" parent="Detail"]
+[node name="Bush12" type="Sprite" parent="Details"]
 position = Vector2( 284.76, 691.254 )
 texture = ExtResource( 16 )
 
-[node name="Bush13" type="Sprite" parent="Detail"]
+[node name="Bush13" type="Sprite" parent="Details"]
 position = Vector2( 378.225, 398.448 )
 rotation = -0.303687
 texture = ExtResource( 16 )
 
-[node name="Bush14" type="Sprite" parent="Detail"]
+[node name="Bush14" type="Sprite" parent="Details"]
 position = Vector2( 247.99, 399.926 )
 texture = ExtResource( 16 )
 
-[node name="Bush15" type="Sprite" parent="Detail"]
+[node name="Bush15" type="Sprite" parent="Details"]
 position = Vector2( 714.68, 408.411 )
 texture = ExtResource( 16 )
 
-[node name="Bush16" type="Sprite" parent="Detail"]
+[node name="Bush16" type="Sprite" parent="Details"]
 position = Vector2( 578.833, 244.116 )
 texture = ExtResource( 21 )
 
-[node name="Bush17" type="Sprite" parent="Detail"]
+[node name="Bush17" type="Sprite" parent="Details"]
 position = Vector2( 597.521, 126.65 )
 texture = ExtResource( 21 )
 
-[node name="Bush18" type="Sprite" parent="Detail"]
+[node name="Bush18" type="Sprite" parent="Details"]
 position = Vector2( 351.911, 193.392 )
 texture = ExtResource( 21 )
 
-[node name="Bush19" type="Sprite" parent="Detail"]
+[node name="Bush19" type="Sprite" parent="Details"]
 position = Vector2( 144.988, 759.454 )
 rotation = 0.966912
 texture = ExtResource( 16 )
 
-[node name="Bush20" type="Sprite" parent="Detail"]
+[node name="Bush20" type="Sprite" parent="Details"]
 position = Vector2( 1504.89, 634.172 )
 rotation = -0.207694
 texture = ExtResource( 16 )
 
-[node name="Bush21" type="Sprite" parent="Detail"]
+[node name="Bush21" type="Sprite" parent="Details"]
 position = Vector2( 1514.4, 745.958 )
 rotation = 0.966912
 texture = ExtResource( 16 )
 
-[node name="Bush22" type="Sprite" parent="Detail"]
+[node name="Bush22" type="Sprite" parent="Details"]
 position = Vector2( 1131.48, 784.012 )
 texture = ExtResource( 16 )
 
-[node name="Bush23" type="Sprite" parent="Detail"]
+[node name="Bush23" type="Sprite" parent="Details"]
 position = Vector2( 838.93, 781.634 )
 texture = ExtResource( 21 )
 
-[node name="Bush24" type="Sprite" parent="Detail"]
+[node name="Bush24" type="Sprite" parent="Details"]
 position = Vector2( 1466.83, 113.299 )
 texture = ExtResource( 21 )
 
-[node name="Bush25" type="Sprite" parent="Detail"]
+[node name="Bush25" type="Sprite" parent="Details"]
 position = Vector2( 1151.83, 116.417 )
 rotation = -0.966912
 texture = ExtResource( 16 )
 
-[node name="Tree" type="Sprite" parent="Detail"]
+[node name="Tree" type="Sprite" parent="Details"]
 position = Vector2( 873.073, 448.009 )
 texture = ExtResource( 15 )
 
-[node name="Tree2" type="Sprite" parent="Detail"]
+[node name="Tree2" type="Sprite" parent="Details"]
 position = Vector2( 487.955, 192.281 )
 texture = ExtResource( 20 )
 
-[node name="Tree3" type="Sprite" parent="Detail"]
+[node name="Tree3" type="Sprite" parent="Details"]
 position = Vector2( 1323.56, 93.5024 )
 texture = ExtResource( 15 )
 
-[node name="Tree4" type="Sprite" parent="Detail"]
+[node name="Tree4" type="Sprite" parent="Details"]
 position = Vector2( 1356.86, 759.458 )
 rotation = -0.773181
 texture = ExtResource( 15 )
 
-[node name="Tree5" type="Sprite" parent="Detail"]
+[node name="Tree5" type="Sprite" parent="Details"]
 position = Vector2( 543.445, 799.891 )
 rotation = -0.773181
 texture = ExtResource( 15 )
 
-[node name="Tree6" type="Sprite" parent="Detail"]
+[node name="Tree6" type="Sprite" parent="Details"]
 position = Vector2( 264.384, 130.442 )
 texture = ExtResource( 20 )
 
-[node name="Tree7" type="Sprite" parent="Detail"]
+[node name="Tree7" type="Sprite" parent="Details"]
 position = Vector2( 88.3813, 432.5 )
 texture = ExtResource( 20 )
 
-[node name="Tree8" type="Sprite" parent="Detail"]
+[node name="Tree8" type="Sprite" parent="Details"]
 position = Vector2( 86.0029, 648.936 )
 texture = ExtResource( 20 )
 
-[node name="Tree9" type="Sprite" parent="Detail"]
+[node name="Tree9" type="Sprite" parent="Details"]
 position = Vector2( 755.123, 91.124 )
 rotation = 1.35263
 texture = ExtResource( 15 )
 
-[node name="Rock" type="Sprite" parent="Detail"]
+[node name="Rock" type="Sprite" parent="Details"]
 position = Vector2( -49.6428, 554.452 )
 texture = ExtResource( 17 )
 offset = Vector2( 1400.72, -24.418 )
 
-[node name="Rock2" type="Sprite" parent="Detail"]
+[node name="Rock2" type="Sprite" parent="Details"]
 position = Vector2( -681.083, 787.534 )
 texture = ExtResource( 18 )
 offset = Vector2( 1400.72, -24.418 )
 
-[node name="Rock3" type="Sprite" parent="Detail"]
+[node name="Rock3" type="Sprite" parent="Details"]
 position = Vector2( -494.617, 730.323 )
 texture = ExtResource( 19 )
 offset = Vector2( 1400.72, -24.418 )
 
-[node name="Rock4" type="Sprite" parent="Detail"]
+[node name="Rock4" type="Sprite" parent="Details"]
 position = Vector2( -586.683, 198.689 )
 texture = ExtResource( 19 )
 offset = Vector2( 1400.72, -24.418 )
 
-[node name="Rock5" type="Sprite" parent="Detail"]
+[node name="Rock5" type="Sprite" parent="Details"]
 position = Vector2( -958.662, 289.586 )
 texture = ExtResource( 19 )
 offset = Vector2( 1400.72, -24.418 )
 
-[node name="Rock6" type="Sprite" parent="Detail"]
+[node name="Rock6" type="Sprite" parent="Details"]
 position = Vector2( -977.35, 126.736 )
 texture = ExtResource( 19 )
 offset = Vector2( 1400.72, -24.418 )
 
-[node name="Rock7" type="Sprite" parent="Detail"]
+[node name="Rock7" type="Sprite" parent="Details"]
 position = Vector2( -1182.92, 270.898 )
 texture = ExtResource( 19 )
 offset = Vector2( 1400.72, -24.418 )
 
-[node name="Rock8" type="Sprite" parent="Detail"]
+[node name="Rock8" type="Sprite" parent="Details"]
 position = Vector2( -1309.35, 797.779 )
 scale = Vector2( 1.11149, 1.14865 )
 texture = ExtResource( 17 )
 offset = Vector2( 1400.72, -24.418 )
 
-[node name="Rock9" type="Sprite" parent="Detail"]
+[node name="Rock9" type="Sprite" parent="Details"]
 position = Vector2( -608.874, 837.202 )
 scale = Vector2( 1.11149, 1.14865 )
 texture = ExtResource( 18 )
 offset = Vector2( 1400.72, -24.418 )
 
-[node name="Rock10" type="Sprite" parent="Detail"]
+[node name="Rock10" type="Sprite" parent="Details"]
 position = Vector2( 102.272, 1053.64 )
 rotation = -0.579449
 scale = Vector2( 1.11149, 1.14865 )
 texture = ExtResource( 18 )
 offset = Vector2( 1400.72, -24.418 )
 
-[node name="Rock11" type="Sprite" parent="Detail"]
+[node name="Rock11" type="Sprite" parent="Details"]
 position = Vector2( -38.0542, 1667.27 )
 rotation = -0.579449
 scale = Vector2( 1.11149, 1.14865 )
 texture = ExtResource( 18 )
 offset = Vector2( 1400.72, -24.418 )
 
-[node name="Rock12" type="Sprite" parent="Detail"]
+[node name="Rock12" type="Sprite" parent="Details"]
 position = Vector2( -627.901, 1072.66 )
 rotation = -0.579449
 scale = Vector2( 1.11149, 1.14865 )
 texture = ExtResource( 18 )
 offset = Vector2( 1400.72, -24.418 )
 
-[node name="Rock13" type="Sprite" parent="Detail"]
+[node name="Rock13" type="Sprite" parent="Details"]
 position = Vector2( -1402.11, 136.58 )
 scale = Vector2( 1.11149, 1.14865 )
 texture = ExtResource( 17 )
 offset = Vector2( 1400.72, -24.418 )
 
-[node name="Rock14" type="Sprite" parent="Detail"]
+[node name="Rock14" type="Sprite" parent="Details"]
 position = Vector2( -410.68, 139.229 )
 texture = ExtResource( 19 )
 offset = Vector2( 1400.72, -24.418 )
 
-[node name="Rock15" type="Sprite" parent="Detail"]
+[node name="Rock15" type="Sprite" parent="Details"]
 position = Vector2( -1182.07, 1165.42 )
 rotation = -0.579449
 scale = Vector2( 1.11149, 1.14865 )
