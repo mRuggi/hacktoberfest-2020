@@ -10,7 +10,6 @@
 [ext_resource path="res://scenes/enemy-commander/enemy-commander.tscn" type="PackedScene" id=8]
 [ext_resource path="res://scenes/enemy-call-button/enemy-call-button.tscn" type="PackedScene" id=9]
 [ext_resource path="res://scenes/gameplay/levels/level_manager.gd" type="Script" id=10]
-[ext_resource path="res://resources/fonts/boogaloo-40px.tres" type="DynamicFont" id=11]
 [ext_resource path="res://scenes/fx/CoinParticles.tscn" type="PackedScene" id=12]
 [ext_resource path="res://scenes/enemy/enemy-types/commando.tres" type="Resource" id=13]
 [ext_resource path="res://scenes/enemy/enemy-types/tank.tres" type="Resource" id=14]
@@ -21,6 +20,7 @@
 [ext_resource path="res://assets/sprites/tower-defense-top-down/png/tower-defense_tile137.png" type="Texture" id=19]
 [ext_resource path="res://assets/sprites/tower-defense-top-down/png/tower-defense_tile133.png" type="Texture" id=20]
 [ext_resource path="res://assets/sprites/tower-defense-top-down/png/tower-defense_tile131.png" type="Texture" id=21]
+[ext_resource path="res://scenes/enemy/enemy-types/aircraft.tres" type="Resource" id=22]
 
 [sub_resource type="TileSet" id=1]
 0/name = "tower-defense_spritesheet.png 0"
@@ -84,6 +84,8 @@ call_button_path = NodePath("../EnemyCallButton")
 description = "Placeholder"
 
 [node name="EnemyGroup" parent="WaveManager/EnemyWave" instance=ExtResource( 7 )]
+enemy_resource = ExtResource( 4 )
+num_of_enemies = 4
 
 [node name="EnemyGroup2" parent="WaveManager/EnemyWave" instance=ExtResource( 7 )]
 enemy_resource = ExtResource( 4 )
@@ -92,11 +94,21 @@ delay_in_sec = 2.0
 
 [node name="EnemyGroup3" parent="WaveManager/EnemyWave" instance=ExtResource( 7 )]
 enemy_resource = ExtResource( 13 )
+num_of_enemies = 2
+delay_in_sec = 2.0
 
 [node name="EnemyWave2" parent="WaveManager" instance=ExtResource( 5 )]
 
 [node name="EnemyGroup" parent="WaveManager/EnemyWave2" instance=ExtResource( 7 )]
 enemy_resource = ExtResource( 14 )
+
+[node name="EnemyGroup2" parent="WaveManager/EnemyWave2" instance=ExtResource( 7 )]
+enemy_resource = ExtResource( 22 )
+delay_in_sec = 2.0
+
+[node name="EnemyGroup3" parent="WaveManager/EnemyWave2" instance=ExtResource( 7 )]
+enemy_resource = ExtResource( 4 )
+num_of_enemies = 4
 
 [node name="HitArea" parent="." instance=ExtResource( 2 )]
 position = Vector2( 1615, 355 )
@@ -377,35 +389,6 @@ offset = Vector2( 1400.72, -24.418 )
 
 [node name="Particles2D" parent="." instance=ExtResource( 12 )]
 position = Vector2( 0, 0 )
-
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
-
-[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
-visible = false
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = -800.0
-margin_top = -450.0
-margin_right = 800.0
-margin_bottom = 450.0
-mouse_filter = 2
-color = Color( 0.0588235, 0.0588235, 0.0588235, 0.4 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Label" type="Label" parent="CanvasLayer/ColorRect"]
-margin_left = 46.6853
-margin_top = 42.0567
-margin_right = 765.686
-margin_bottom = 243.057
-custom_fonts/font = ExtResource( 11 )
-text = "NOT IMPLEMENTED :(
-
-If you want to contribute go on  
- https://github.com/crystal-bit/hacktoberfest-2020"
 [connection signal="last_enemy_in_actual_wave_spawned" from="WaveManager" to="." method="_on_WaveManager_last_enemy_in_actual_wave_spawned"]
 [connection signal="last_enemy_spawned" from="WaveManager" to="." method="_on_WaveManager_last_enemy_spawned"]
 [connection signal="last_wave" from="WaveManager" to="." method="_on_WaveManager_last_wave"]
